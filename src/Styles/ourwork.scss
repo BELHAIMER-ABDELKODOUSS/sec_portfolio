@@ -1,0 +1,63 @@
+.movie {
+  width: 70%;
+  margin: 5rem auto;
+
+  .movie-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin: 1rem 0 0 0;
+    font-size: 3rem;
+    cursor: pointer;
+    color: rgb(51, 51, 51);
+  }
+  .movie-underline {
+    width: 100%;
+    height: 0.4rem;
+    background-color: #29d6ae;
+    margin: 1rem 0 2rem 0;
+  }
+  img {
+    width: 67rem;
+  }
+}
+.movies-container {
+  background-color: white;
+  margin: 0;
+}
+
+.frame1 {
+  position: fixed;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  height: 100vh;
+  background-color: #fffebf;
+  z-index: 2;
+}
+.frame2 {
+  position: fixed;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  height: 100vh;
+  background-color: #ff8efb;
+  z-index: 2;
+}
+.frame3 {
+  position: fixed;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  height: 100vh;
+  background-color: #8ed2ff;
+  z-index: 2;
+}
+.frame4 {
+  position: fixed;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  height: 100vh;
+  background-color: #8effa0;
+  z-index: 2;
+}
